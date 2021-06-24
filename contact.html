@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .text_h2 {
+            font-weight: 500;
+            font-size: 44px;
+            text-align: center;
+        }
+    </style>
+    <title>Контакты</title>
+</head>
+
+<body class="text">
+    <div class="container">
+        <div class="header">
+            <span id="left">
+                <img src="img/logo.png" alt="logo">
+                <a href="index.html">Главная</a>
+            </span>
+            <span id="right">
+                <a href="contact.html">Контакты</a>
+            </span>
+        </div>
+        <div class="contactus">
+            <h2 class="text_h2" style="color: honeydew;">Contact Us</h2>
+            <p class="text_p" style="color: honeydew;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                delectus!</p>
+        </div>
+        <div class="twocol">
+            <span style="width: 50%;">
+                <img src="img/1.jpg" alt="logo">
+                <h4 class="text_h4">Adress</h4>
+                <p class="text_p">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <h4 class="text_h4">Phone</h4>
+                <ul>
+                    <li>+380999999999</li>
+                    <li>+380888888888</li>
+                </ul>
+                <h4 class="text_h4">Online service</h4>
+                <ul>
+                    <li><a target="_blank"
+                            href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A4%D0%B8%D0%BB%D0%B8%D0%BF%D0%BF%D0%B0+%D0%9E%D1%80%D0%BB%D0%B8%D0%BA%D0%B0,+43,+%D0%9A%D0%B8%D0%B5%D0%B2,+01043/">
+                            Город Киев, улица Филиппа Орлика, 43</a></li>
+                    <li><a target="_blank" href="https://lomonosov-msu.ru/rus/event/4226/">+380883338888</a></li>
+                </ul>
+            </span>
+
+            <span class="spanform" style="width: 50%;">
+                <h3 class="text_h3" style="text-align: left;">Send us message</h3>
+                <form action="send">
+                    Full Name <br><br><input class="inputform" type="text" placeholder="Ivan Ivanov"><br><br><br><br>
+                    Email <br><br><input class="inputform" type="email" placeholder="Mail@mail.ru"><br><br><br><br>
+                    Message <br><br><textarea class="inputform" cols="30" rows="8"></textarea><br><br><br><br>
+
+                    <button class="send">submit</button>
+
+                </form>
+            </span>
+        </div>
+
+        <!--Интерактивная карта-->
+
+        <div id="map" style="width: 1140px;height: 300px;margin-bottom: 50px;">
+            <script>
+                function myMap() {
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = {
+                        center: new google.maps.LatLng(50.45, 30.51), zoom: 10
+                    };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                }
+            </script>
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiZOohTUGiB48Dw9ym1DtH1KCyv4PAwkA&callback=myMap"></script>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="bot_block1">
+                    <h3 class="text_h3" style="text-align: left; width: 340px;">Hi today, again</h3>
+                    <p class="text_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque impedit amet culpa
+                        vitae earum, sit laborum velit reiciendis natus asperiores magni eius, voluptatibus perferendis
+                        esse
+                        voluptate nesciunt libero minima hic?</p>
+                </div>
+            </div>
+            <hr>
+            <div class="hrbot">
+                <ul class="inline">
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>+380686666698</li>
+                    <li>Lorem4211@gmail.com</li>
+                </ul>
+                <div class="arr">
+                    <p class="text_p">All rights protects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
