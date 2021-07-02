@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
     <title>Каталог</title>
 </head>
@@ -45,73 +45,83 @@
     <div class="filtr">
         <div class="container">
             <div class="filtr__block">
-            <details>   
-            <summary>FILTER<img style="padding-left: 11px;" src="img/nav.svg" alt="filt"></summary>
-                <details>   
-                <summary>CATEGORY</summary>
-                <div class="spisok">
-                <span>Accessories</span> 
-                <span>Bags</span>
-                <span>Denim</span>
-                <span>Hoodies & Sweatshirts</span>
-                <span>Jackets & Coats</span>
-                <span>Polos</span>
-                <span>Shirts</span>
-                <span>Shoes</span>
-                <span>Sweaters & Knits</span>
-                <span>T-Shirts</span>
-                <span>Tanks</span>
+                <details class="absolute">   
+                    <summary>FILTER<img style="padding-left: 11px;" src="img/nav.svg" alt="filt"></summary>
+                    <div class="smalllist"> 
+                        <details>  
+                            <summary>CATEGORY</summary>
+                        <div class="spisok">
+                            <span>Accessories</span> 
+                            <span>Bags</span>
+                            <span>Denim</span>
+                            <span>Hoodies & Sweatshirts</span>
+                            <span>Jackets & Coats</span>
+                            <span>Polos</span>
+                            <span>Shirts</span>
+                            <span>Shoes</span>
+                            <span>Sweaters & Knits</span>
+                            <span>T-Shirts</span>
+                            <span>Tanks</span>
+                        </div>
+                        </details>
+                        <details>   
+                        <summary>BRAND</summary>
+                        </details>
+                        <details>   
+                        <summary>DESIGNER</summary>
+                        </details>
+                    </div>
+                </details>
+            </div>
+            <div class="filtr__block">
+                <div class="absolute">
+                <div class="menu">
+                    <div class="menu">
+                        <details>
+                            <summary>
+                                <p>TRENDING NOW</p>
+                                <img src="img/strelka.png" alt="strelka">
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="menu">
+                        <details>
+                            <summary><p>SIZE</p><img src="img/strelka.png" alt="strelka"></summary>
+                                <div class="spisok">  
+                                    <span> 
+                                        <input style="margin-right: 9px;" type="checkbox" name="SIZE1" id="size1">
+                                        <label for="size1">XS</label>
+                                    </span>
+                                    <span>
+                                        <input style="margin-right: 9px;" type="checkbox" name="SIZE2" id="size2">
+                                        <label for="size2">S</label>
+                                    </span>
+                                    <span>
+                                        <input style="margin-right: 9px;" type="checkbox" name="SIZE3" id="size3">
+                                        <label for="size3">M</label>
+                                    </span>
+                                    <span>
+                                        <input style="margin-right: 9px;" type="checkbox" name="SIZE4" id="size4">
+                                        <label for="size4">L</label>
+                                    </span>
+                                </div>
+                    </div>
+                    <div class="menu">
+                        <details>
+                            <summary>
+                                <p>PRICE</p>
+                                <img src="img/strelka.png" alt="strelka">
+                            </summary>
+                        </details>
+                    </div>
                 </div>
-                </details>
-                <details>   
-                <summary>BRAND</summary>
-                </details>
-                <details>   
-                <summary>DESIGNER</summary>
-                </details>
             </details>
+            </div>  
+            </div>    
+            <div class="filtr__block">
             </div>
-        <div class="filtr__block">
-            <div class="menu">
-            <p>TRENDING NOW</p>
-            <img src="img/strelka.png" alt="strelka">
-            </div>
-           <div class="menu">
-            <p>SIZE</p>
-            <details> 
-                <summary><img src="img/strelka.png" alt="strelka"></summary>
-            <div class="spisok">  
-            <span> 
-                <input style="margin-right: 9px;" type="checkbox" name="SIZE1" id="size1">
-                <label for="size1">XS</label>
-            </span>
-            <span>
-                <input style="margin-right: 9px;" type="checkbox" name="SIZE2" id="size2">
-                <label for="size2">S</label>
-            </span>
-            <span>
-                <input style="margin-right: 9px;" type="checkbox" name="SIZE3" id="size3">
-                <label for="size3">M</label>
-            </span>
-            <span>
-                <input style="margin-right: 9px;" type="checkbox" name="SIZE4" id="size4">
-                <label for="size4">L</label>
-            </span>
-            
-            </div>
-        </details>
-           </div>
-           <div class="menu">
-            <p>PRICE</p>
-            <img src="img/strelka.png" alt="strelka">
-           </div>
-        </div>
-        <div class="filtr__block">
-
-        </div>
+        </div>      
         </div>    
-        
-
     </div>
         <main class="products">
         <div class="container">
