@@ -2,7 +2,7 @@
     margin: 0; 
     padding: 0;  
 } 
-.body {
+body {
   font-family: 'Lato', sans-serif;
   background: #FFFFFF;
 }
@@ -36,8 +36,8 @@
  .count {
   position: absolute;
   display: flex;
-  right: 110px;
-  top: 15px;
+  right: -10px;
+  top: -20px;
   align-items: center;
   justify-content: center;
   font-size: 12px;
@@ -54,10 +54,10 @@
   height: 764px;
   background-color: #F1E4E6;
   margin-bottom: 50px;
-  background-image: url(img/bgman.png);
+  /* background-image: url(img/bgman.png);
   background-position: -14%;
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size:auto; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,6 +65,12 @@
  .intro__wrap {
   margin-left:90px;
   text-align: left;
+  position: relative;
+}
+.intro__wrap img {
+  position: absolute;
+  left:-315px;
+  top: -382px;
 }
 .intro__text {
   max-width: 397px;
@@ -219,6 +225,7 @@ Line-height: 17px;
   background-position: center;
   background-blend-mode: overlay;
   background-color: rgba(255, 255, 255, 0.6); 
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -277,3 +284,175 @@ align-items: center;
 text-align: left;
 color:  rgba(251, 251, 251, 1);
 }
+
+.products__button a {
+  text-decoration: none;
+  color: rgba(241, 109, 127, 1);
+}
+
+.catalog__nav{
+  height: 148px;
+  background-color: #F8F3F4;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+color: #F16D7F;
+}
+
+.catalog__nav h3 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  color: #636363;
+}
+.catalog__nav span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #F16D7F;
+}
+.filtr__block {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+} 
+
+.filtr__block p {
+  color: #6F6E6E;
+  margin: 0;
+  padding: 0;
+  }
+
+.filtr .container {
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.filtr__block {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.filtr__block details > summary::-webkit-details-marker {
+  display: none;
+}
+.filtr__block details > summary {
+list-style: none;
+font-size: 14px;
+  padding-right: 11px;
+  font-weight: 600;
+}
+.filtr__block details[open] > summary {
+  color: #F16D7F;
+  margin-bottom: 24px;
+}
+
+.filtr__block details[open] {
+width: 360px;
+border-radius: 0px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+padding:17px 12px;
+top: -15px;
+background-color: #FFFFFF;
+}
+.absolute {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.smalllist {
+  position: relative;
+}
+.smalllist details[open]{
+  box-shadow: none;
+  width:100%;
+  padding: 0; 
+}
+
+.smalllist details > summary {
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+border-left: 5px solid #F16D7F;
+padding: 11px;
+border-bottom: 1px solid #EBEBEB;
+margin-bottom: 18px;
+height: 100%;
+}
+
+.menu img{
+  margin-right: 28px;
+}
+
+ .menu{
+  display: flex; 
+  flex-direction: row; 
+  align-items: baseline;
+  position: relative;
+ }
+
+ .menu details[open] {
+  width: 79px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+  top: 0;
+  position: relative;
+ }
+ 
+ .menu > details > summary{
+  font-weight: 400;
+  color: #6F6E6E;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  position: relative;
+ }
+ .menu p{
+ padding-right: 10px;
+ }
+ .copyright img:active {
+   background-color: #F16D7F;
+ }
+.absolute span{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  padding-left: 13px;
+  padding-bottom: 11px;
+}
+
+.pagination {
+  display: inline-block;
+  margin-bottom: 96px;
+  margin-top: 33px;
+}
+
+.pagination a {
+  color: rgb(155, 149, 149);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+    color: #f16d7f; 
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
