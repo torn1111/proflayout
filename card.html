@@ -10,11 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
-    <title>Главная</title>
+    <title>Покупка</title>
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div>
                 <a href="index.html">
@@ -32,139 +32,83 @@
                     </span></a>
             </div>
         </div>
-    </div>
+    </header>
+    <nav class="catalog__nav">
+        <div class="container">
+            <div>
+                <h1>SHOPPING CART</h1>
+            </div>
+            <div>
+            </div>
+        </div>
+    </nav>
 
-    <div class="intro">
-        <div class="container">
-            <div class="intro__wrap">
-                <img src="img/bgman.png" alt="bg">
-            </div>
-            <div class="intro__wrap">
-                <h1 class="intro__text"> THE BRAND
-                    <span> OF LUXERIOUS
-                        <span> FASHION
-                        </span></span>
-                </h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="stock">
-        <div class="container">
-            <div class="stock__sale" style="background-image: url(img/BL2_img1.png);">
-                <div class="stock__sale__text">
-                    <span>30% OFF</span>
-                    <h3>FOR WOMAN</h3>
+    <main class="products" style="margin-bottom: 113px; margin-top: 61px;">
+        <div class="container" style="align-items: flex-start;">
+            <div class="column">
+                <div class="products_block__card">
+                    <div class="item">
+                        <img class="item-img__card" src="img/catalog_1.png" alt="BL3_1">
+                        <div class="overlay">
+                            <div class="to_card__btn"><a href="#"><img style="padding-right: 11px;" src="img/head_5.png"
+                                        alt="head_5">Add to
+                                    Cart</a></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>MANGO PEOPLE T-SHIRT</h3>
+                        <div class="products__properties">
+                            <li>Price: <span>$300</span></li>
+                            <li>Color: Red</li>
+                            <li>Size: XL</li>
+                            <li>Quantity:<button>2</button></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="products_block__card">
+                    <div class="item">
+                        <img class="item-img__card" src="img/catalog_2.png" alt="BL3_2">
+                        <div class="overlay">
+                            <div class="to_card__btn"><a href="#"><img style="padding-right: 11px;" src="img/head_5.png"
+                                        alt="head_5">Add to
+                                    Cart</a></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>MANGO PEOPLE T-SHIRT</h3>
+                        <div class="products__properties">
+                            <li>Price: <span>$300</span></li>
+                            <li>Color: Red</li>
+                            <li>Size: XL</li>
+                            <li>Quantity:<button>2</button></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="shoping">
+                    <button>CLEAR SHOPPING CART</button>
+                    <button>CONTINUE SHOPPING</button>
                 </div>
             </div>
-            <div class="stock__sale" style="background-image: url(img/BL2_img2.png);">
-                <div class="stock__sale__text">
-                    <span>HOT DEAL</span>
-                    <h3>FOR MAN</h3>
-                </div>
-            </div>
-            <div class="stock__sale" style="background-image: url(img/BL2_img3.png);">
-                <div class="stock__sale__text">
-                    <span>NEW ARRIVALS</span>
-                    <h3>FOR KIDS</h3>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="stock__sale2" style="background-image: url(img/BL2_img4.png);">
-                <div class="stock__sale__text">
-                    <span>LUXIROUS & TRENDY</span>
-                    <h3>ACCESORIES</h3>
-                </div>
+            <div class="column">
+                <form action="quote" class="quote">
+                    <h4>SHIPPING ADRESS</h4>
+                    <input type="text" name="city" id="city" placeholder="Bangladesh">
+                    <input type="text" name="state" id="state" placeholder="State">
+                    <input type="number" name="zip" id="zip" placeholder="Postcode / Zip">
+                    <button>GET A QUOTE</button>
+                </form>
+                <form action="checkout" class="checkout">
+                    <h5>SUB TOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $900</h5>
+                    <h4>GRAND TOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>$900</span></h4>
+                    <hr>
+                    <button>PROCEED TO CHECKOUT</button>
+                </form>
             </div>
         </div>
-    </div>
-    <div class="container centr" style="margin-bottom: 48px;">
-        <h3>Fetured Items</h3>
-        <p>Shop for items based on what we featured in this week</p>
-    </div>
-    <div class="products">
-        <div class="container">
-            <div class="products_block">
-                <img src="img/BL3_1.png" alt="BL3_1">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products_block">
-                <img src="img/BL3_2.png" alt="BL3_2">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products_block">
-                <img src="img/BL3_3.png" alt="BL3_3">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
         </div>
-        <div class="container">
-            <div class="products_block">
-                <img src="img/BL3_4.png" alt="BL3_4">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products_block">
-                <img src="img/BL3_5.png" alt="BL3_5">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products_block">
-                <img src="img/BL3_6.png" alt="BL3_6">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
         </div>
-        <div class="container centr">
-            <form action="/catalog.html">
-                <button class="products__button">Browse All Product</button>
-            </form>
-        </div>
-    </div>
-    <div class="info">
-        <div class="container">
-            <div>
-                <img src="img/delivery.png" alt="delivery">
-                <h3>Free Delivery</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
-            <div>
-                <img src="img/discont.png" alt="discont">
-                <h3>Sales & discounts</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
-            <div>
-                <img src="img/krown.png" alt="krown">
-                <h3>Quality assurance</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="subscribe" style="background-image: url(img/subs.jpg);">
+    </main>
+    <section class="subscribe" style="background-image: url(img/subs.jpg);">
         <div class="container">
             <div>
                 <img src="img/face.png" alt="krown">
@@ -179,7 +123,8 @@
                 </form>
             </div>
         </div>
-    </div>
+    </section>
+
     <footer class="copyright">
         <div class="container">
             <div>&copy;2021 Brand All Rights Reserved.</div>
@@ -203,6 +148,8 @@
             </div>
         </div>
     </footer>
+
+
 </body>
 
 </html>
