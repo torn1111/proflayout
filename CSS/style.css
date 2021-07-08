@@ -400,6 +400,7 @@ h1 {
 }
 
 .products__properties button {
+  margin: 0;
   margin-left: 24px;
   padding: 0 15px;
   font-size: 18px;
