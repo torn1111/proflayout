@@ -564,7 +564,7 @@ h1 {
        }
     & p{
         padding-right: 10px;
-        }      
+        }
 }
 .pagination {
     display: inline-block;
@@ -613,7 +613,7 @@ h1 {
 
     }
 }
-.prv_b:hover, .nxt_b:hover, .btn__slider:hover{
+.prv_b:hover, .nxt_b:hover, .Prodlist__slider__btn:hover {
     opacity:.6;
 }
 .overlay {
@@ -688,6 +688,26 @@ h1 {
         line-height: 29px;
         color: rgba(241, 109, 127, 1);
     }
+    & button{
+        margin-top: 43px;
+        margin-bottom: 95px;
+        font-weight: 400;
+        font-size: 16px;
+        Line-height: 19px;
+        color: rgba(241, 109, 127, 1);
+        border: rgba(241, 109, 127, 1) solid 1px;
+        background-color:rgba(255, 255, 255, 1);
+        text-align: center; 
+        padding: 14px 38px;
+               & a {
+                text-decoration: none;
+                color: rgba(241, 109, 127, 1);
+               }
+               &:hover {
+                background-color: #F16D7F;
+                color: rgba(255, 255, 255, 1); 
+               } 
+            }   
 }
 .hr_wom1{
     border: rgba(239, 91, 112, 1) solid 3px;

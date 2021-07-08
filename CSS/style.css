@@ -881,7 +881,7 @@ h1 {
   width: 47px;
 }
 
-.prv_b:hover, .nxt_b:hover, .btn__slider:hover {
+.prv_b:hover, .nxt_b:hover, .Prodlist__slider__btn:hover {
   opacity: .6;
 }
 
@@ -985,6 +985,29 @@ h1 {
   font-weight: 300;
   line-height: 29px;
   color: #f16d7f;
+}
+
+.woman__coll button {
+  margin-top: 43px;
+  margin-bottom: 95px;
+  font-weight: 400;
+  font-size: 16px;
+  Line-height: 19px;
+  color: #f16d7f;
+  border: #f16d7f solid 1px;
+  background-color: white;
+  text-align: center;
+  padding: 14px 38px;
+}
+
+.woman__coll button a {
+  text-decoration: none;
+  color: #f16d7f;
+}
+
+.woman__coll button:hover {
+  background-color: #F16D7F;
+  color: white;
 }
 
 .hr_wom1 {
