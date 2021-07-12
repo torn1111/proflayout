@@ -1035,4 +1035,96 @@ h1 {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
+.inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reg__form h3 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+.reg__form span {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+}
+
+.reg__form p {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.reg__form__radio input {
+  width: 20px;
+  margin: 32px 0;
+}
+
+.reg__form__radio span {
+  margin: 0 20px 0 10px;
+}
+
+.reg__perks {
+  max-width: 652px;
+}
+
+.reg__perks h2 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.reg__perks p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 5px;
+  margin-top: 22px;
+}
+
+.reg__perks ul {
+  list-style-image: url(/img/list.svg);
+  margin-left: 22px;
+}
+
+.reg__perks ul li {
+  margin-top: 16px;
+  padding-left: 22px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
 /*# sourceMappingURL=style.css.map */
