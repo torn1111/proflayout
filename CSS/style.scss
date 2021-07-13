@@ -140,6 +140,10 @@ h1 {
       justify-content: center; 
       background-blend-mode: multiply;
       background-color: rgba(31, 15, 15, 0.6); 
+      transition:all 1s;
+      &:hover {
+          transform: translateY(-50px) scale(1.2);
+      }
       &__text{
         color: #FFFFFF;;
         display: flex;
@@ -192,6 +196,8 @@ h1 {
     background-color:rgba(255, 255, 255, 1);
     text-align: center; 
     padding: 14px 38px;
+    transition: all 1s;
+    
            & a {
             text-decoration: none;
             color: rgba(241, 109, 127, 1);
@@ -199,6 +205,7 @@ h1 {
            &:hover {
             background-color: #F16D7F;
             color: rgba(255, 255, 255, 1); 
+            transform: scale(2);
            }
     }
     &__block{
@@ -209,6 +216,10 @@ h1 {
         flex-direction: column; 
         align-items: baseline;
         margin-bottom: 30px;
+        transition: all 2s;
+        &:hover {
+            transform: rotate(360deg);
+         }
            & span {
             margin: 18px 29px 20px 18px;   
             font-weight: 400;
@@ -736,6 +747,7 @@ h1 {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 28px;
     &__form {
         & h3 {
             font-size: 16px;
@@ -756,9 +768,12 @@ h1 {
             line-height: 16px;
             color: #B1B1B1;
             margin-top: 5px;
+            margin-bottom: 0;
         }
         & button {
-            margin: auto;
+            margin: 39px auto;
+            width: 167px;
+            height: 50px;
             &:hover{
                 background-color: #F16D7F;
                 color: #F8F3F4;

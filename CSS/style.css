@@ -196,6 +196,13 @@ h1 {
           justify-content: center;
   background-blend-mode: multiply;
   background-color: rgba(31, 15, 15, 0.6);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.stock__sale:hover {
+  -webkit-transform: translateY(-50px) scale(1.2);
+          transform: translateY(-50px) scale(1.2);
 }
 
 .stock__sale__text {
@@ -279,6 +286,8 @@ h1 {
   background-color: white;
   text-align: center;
   padding: 14px 38px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .products button a {
@@ -289,6 +298,8 @@ h1 {
 .products button:hover {
   background-color: #F16D7F;
   color: white;
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .products__block {
@@ -306,6 +317,13 @@ h1 {
       -ms-flex-align: baseline;
           align-items: baseline;
   margin-bottom: 30px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.products__block:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .products__block span {
@@ -1066,6 +1084,7 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 28px;
 }
 
 .reg__form h3 {
@@ -1088,10 +1107,13 @@ h1 {
   line-height: 16px;
   color: #B1B1B1;
   margin-top: 5px;
+  margin-bottom: 0;
 }
 
 .reg__form button {
-  margin: auto;
+  margin: 39px auto;
+  width: 167px;
+  height: 50px;
 }
 
 .reg__form button:hover {
