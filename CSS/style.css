@@ -1072,6 +1072,7 @@ h1 {
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
+  margin-bottom: 10px;
 }
 
 .reg__form span {
@@ -1086,6 +1087,16 @@ h1 {
   font-weight: 300;
   line-height: 16px;
   color: #B1B1B1;
+  margin-top: 5px;
+}
+
+.reg__form button {
+  margin: auto;
+}
+
+.reg__form button:hover {
+  background-color: #F16D7F;
+  color: #F8F3F4;
 }
 
 .reg__form__radio input {
@@ -1094,7 +1105,7 @@ h1 {
 }
 
 .reg__form__radio span {
-  margin: 0 20px 0 10px;
+  margin: 32px 20px 32px 10px;
 }
 
 .reg__perks {
