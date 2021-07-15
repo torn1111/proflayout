@@ -58,16 +58,21 @@ h1 {
   margin-right: 41px;
   text-decoration: none;
 }
-
+.header a {
+  margin-right: 41px;
+  text-decoration: none;
+}
 .header__nav {
   margin-right: 41px;
   text-decoration: none;
 }
 
-.header__nav:last-child {
+.header a:last-child {
   margin-right: 0;
 }
-
+.header a:first-child {
+  margin-right: 25;
+}
 .rel {
   position: relative;
 }
