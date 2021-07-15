@@ -317,13 +317,6 @@ h1 {
       -ms-flex-align: baseline;
           align-items: baseline;
   margin-bottom: 30px;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-.products__block:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .products__block span {
@@ -793,6 +786,7 @@ h1 {
       -ms-flex-align: baseline;
           align-items: baseline;
   position: relative;
+  white-space: nowrap;
 }
 
 .menu img {
@@ -800,9 +794,13 @@ h1 {
 }
 
 .menu details[open] {
-  width: 79px;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+  width: 100%;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0;
+  top: 0;
+  background-color: none;
   top: 0;
   position: relative;
 }
@@ -823,8 +821,27 @@ h1 {
   position: relative;
 }
 
-.menu p {
+.menu h3 {
+  font-weight: 400;
+  line-height: 17px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 0;
   padding-right: 10px;
+  color: #6F6E6E;
+}
+
+.spisok {
+  position: absolute;
+  margin-top: -15px;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  background: white;
+  width: calc(100% - 12px);
+  margin-left: -12px;
+  padding: 6px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
 }
 
 .pagination {
@@ -933,8 +950,8 @@ h1 {
 
 .to_card__btn {
   font-weight: 400;
-  Size: 16px;
-  Line-height: 19px;
+  font-Size: 16px;
+  line-height: 19px;
   color: white;
   border: white solid 1px;
   padding: 14px 38px;
@@ -1011,7 +1028,7 @@ h1 {
   margin-bottom: 95px;
   font-weight: 400;
   font-size: 16px;
-  Line-height: 19px;
+  line-height: 19px;
   color: #f16d7f;
   border: #f16d7f solid 1px;
   background-color: white;
