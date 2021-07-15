@@ -54,10 +54,6 @@ h1 {
   padding: 19px 0;
 }
 
-.header__logo {
-  margin-right: 41px;
-  text-decoration: none;
-}
 .header a {
   margin-right: 41px;
   text-decoration: none;
@@ -65,13 +61,13 @@ h1 {
 .header__nav {
   text-decoration: none;
 }
-
-.header a:last-child {
-  margin-right: 0;
-}
 .header a:first-child {
   margin-right: 25;
 }
+.header a:last-child {
+  margin-right: 0;
+}
+
 .rel {
   position: relative;
 }
