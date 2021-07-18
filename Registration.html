@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
-    <title>Покупка</title>
+    <title>Регистрация</title>
 </head>
 
 <body>
@@ -36,77 +36,42 @@
     <nav class="catalog__nav">
         <div class="container">
             <div>
-                <h1>SHOPPING CART</h1>
+                <h1>REGISTRATION</h1>
             </div>
             <div>
             </div>
         </div>
     </nav>
-
-    <main class="products" style="margin-bottom: 113px; margin-top: 61px;">
-        <div class="container" style="align-items: flex-start;">
-            <div class="column">
-                <div class="products__block__card">
-                    <div class="item">
-                        <img class="item-img__card" src="img/catalog_1.png" alt="BL3_1">
-                        <div class="overlay">
-                            <div class="to_card__btn"><a href="#"><img style="padding-right: 11px;" src="img/head_5.png"
-                                        alt="head_5">Add to
-                                    Cart</a></div>
-                        </div>
+    <main class="container reg">
+                <form action="reg" class="quote reg__form column">
+                    <h3>Your Name</h3>
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">
+                    <div class="inline reg__form__radio">
+                        <input type="radio" name="male" id="male">
+                        <span>Male</span>
+                        <input type="radio" name="male" id="female">
+                        <span>Female</span>
                     </div>
-                    <div class="column">
-                        <h3>MANGO PEOPLE T-SHIRT</h3>
-                        <div class="products__properties">
-                            <li>Price: <span>$300</span></li>
-                            <li>Color: Red</li>
-                            <li>Size: XL</li>
-                            <li>Quantity:<button>2</button></li>
-                        </div>
-                    </div>
-                </div>
-                <div class="products__block__card">
-                    <div class="item">
-                        <img class="item-img__card" src="img/catalog_2.png" alt="BL3_2">
-                        <div class="overlay">
-                            <div class="to_card__btn"><a href="#"><img style="padding-right: 11px;" src="img/head_5.png"
-                                        alt="head_5">Add to
-                                    Cart</a></div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <h3>MANGO PEOPLE T-SHIRT</h3>
-                        <ul class="products__properties">
-                            <li>Price: <span>$300</span></li>
-                            <li>Color: Red</li>
-                            <li>Size: XL</li>
-                            <li>Quantity:<button>2</button></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="shoping">
-                    <button>CLEAR SHOPPING CART</button>
-                    <button>CONTINUE SHOPPING</button>
-                </div>
-            </div>
-            <div class="column">
-                <form action="quote" class="quote">
-                    <h4>SHIPPING ADRESS</h4>
-                    <input type="text" name="city" id="city" placeholder="Bangladesh">
-                    <input type="text" name="state" id="state" placeholder="State">
-                    <input type="number" name="zip" id="zip" placeholder="Postcode / Zip">
-                    <button>GET A QUOTE</button>
+                    <h3>Login details</h3>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    <button>JOIN NOW &rarr;</button>
                 </form>
-                <form action="checkout" class="checkout">
-                    <h5>SUB TOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $900</h5>
-                    <h4>GRAND TOTAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>$900</span></h4>
-                    <hr>
-                    <button>PROCEED TO CHECKOUT</button>
-                </form>
-            </div>
-        </div>
+                <div class="reg__perks column">
+                    <h2>LOYALTY HAS ITS PERKS</h2>
+                    <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                    <ul> 
+                        <li>15% off welcome offer</li>
+                        <li>Free shipping, returns and exchanges on all orders</li>
+                        <li>$10 off a purchase on your birthday</li>
+                        <li>Early access to products</li>
+                        <li>Exclusive offers & rewards</li> 
+                    </ul>
+                </div>
     </main>
-    <section class="subscribe" style="background-image: url(img/subs.jpg);">
+       <div class="subscribe" style="background-image: url(img/subs.jpg);">
         <div class="container">
             <div>
                 <img src="img/face.png" alt="krown">
@@ -121,8 +86,7 @@
                 </form>
             </div>
         </div>
-    </section>
-
+    </div>
     <footer class="copyright">
         <div class="container">
             <div>&copy;2021 Brand All Rights Reserved.</div>
@@ -146,8 +110,6 @@
             </div>
         </div>
     </footer>
-
-
 </body>
 
 </html>
