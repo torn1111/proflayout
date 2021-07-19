@@ -79,6 +79,10 @@ h1 {
 
 .header #header__nav:checked + .header__menu {
   opacity: 1;
+<<<<<<< Updated upstream
+=======
+  display: block;
+>>>>>>> Stashed changes
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s;
   z-index: 10;
@@ -87,16 +91,30 @@ h1 {
 .header__menu {
   display: block;
   opacity: 0;
+<<<<<<< Updated upstream
   height: calc(100vh - 62px);
   position: absolute;
   top: 62px;
   left: calc(100vw - 392px);
+=======
+  height: calc(100vh - 97px);
+  position: absolute;
+  top: 61px;
+  right: calc((1140px - 100vw)/2);
+>>>>>>> Stashed changes
   width: 232px;
   background-color: white;
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
+<<<<<<< Updated upstream
+=======
+.burger {
+  margin-right: 25px;
+}
+
+>>>>>>> Stashed changes
 .flex-end {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,10 +122,20 @@ h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+<<<<<<< Updated upstream
 }
 
 .hidden {
   visibility: hidden;
+=======
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hidden {
+  display: none;
+>>>>>>> Stashed changes
 }
 
 .rel {
@@ -172,7 +200,11 @@ h1 {
 }
 
 .intro {
+<<<<<<< Updated upstream
   height: calc(100vh - 62px);
+=======
+  height: calc(100vh - 95px);
+>>>>>>> Stashed changes
   background-color: #F1E4E6;
   margin-bottom: 50px;
   display: -webkit-box;
@@ -184,12 +216,17 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url(/img/bgman.png);
+  background-position: left -64px bottom;
+  background-repeat: no-repeat;
 }
 
 .intro__wrap {
   margin-left: 90px;
   text-align: left;
   position: relative;
+  display: block;
+  width: 50%;
 }
 
 .intro__wrap img {
@@ -1219,5 +1256,23 @@ h1 {
   font-size: 24px;
   font-weight: 300;
   line-height: 29px;
+}
+
+@media screen and (max-width: 1140px) {
+  .header__menu {
+    right: 0;
+  }
+  #head_5 {
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #head_4 {
+    display: none;
+  }
+  #head_5 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
