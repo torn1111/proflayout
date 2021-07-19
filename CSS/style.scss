@@ -62,10 +62,7 @@ h1 {
         cursor: pointer;
         &:checked + .header__menu {
             opacity: 1;
-<<<<<<< Updated upstream
-=======
             display: block;
->>>>>>> Stashed changes
             transition: all ease-in 0.3s;
             z-index: 10;
         }
@@ -73,30 +70,15 @@ h1 {
     &__menu {
         display: block;
         opacity: 0;
-<<<<<<< Updated upstream
-        height: calc(100vh - 62px);
-        position: absolute;
-        top:62px;
-        left: calc(100vw - 392px);
-=======
         height: calc(100vh - 97px);
         position: absolute;
         top:61px;
         right: calc((1140px - 100vw)/2);
->>>>>>> Stashed changes
         width: 232px;
         background-color: white;
         box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
     }
 } 
-<<<<<<< Updated upstream
-.flex-end {
-    display: flex;
-    justify-content: flex-end;
-}
-.hidden {
-    visibility: hidden;
-=======
 .burger{
     margin-right: 25px;
 }
@@ -107,7 +89,6 @@ h1 {
 }
 .hidden {
     display:none;
->>>>>>> Stashed changes
 }
 .rel {
     position: relative;
@@ -146,19 +127,16 @@ h1 {
     border-radius: 50%;
 }
 .intro {
-<<<<<<< Updated upstream
-    height: calc(100vh - 62px);
-=======
     height: calc(100vh - 95px);
->>>>>>> Stashed changes
   background-color: #F1E4E6;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: url(/img/bgman.png);
-  background-position: left -64px bottom;
+  background-position: left bottom;
   background-repeat: no-repeat;
+  background-size: 84vh;
   &__wrap {
     margin-left:90px;
     text-align: left;

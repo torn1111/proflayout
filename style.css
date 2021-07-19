@@ -1,27 +1,12 @@
 * {
-<<<<<<< Updated upstream
-    margin: 0; 
-    padding: 0;  
-} 
-=======
   margin: 0;
   padding: 0;
 }
 
->>>>>>> Stashed changes
 body {
   font-family: 'Lato', sans-serif;
   background: #FFFFFF;
 }
-<<<<<<< Updated upstream
-button {
-  cursor: pointer;
-}
-.header {
-    background-color: #222222;
-    padding: 19px 0;
-}
-=======
 
 button {
   cursor: pointer;
@@ -34,19 +19,11 @@ h1 {
   color: #F16D7F;
 }
 
->>>>>>> Stashed changes
 .container {
   max-width: 1160px;
   padding: 0 10px;
   margin: 0 auto;
   width: 100%;
-<<<<<<< Updated upstream
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header__logo {
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,39 +54,12 @@ h1 {
   padding: 19px 0;
 }
 
-<<<<<<< Updated upstream
-.header a {
->>>>>>> Stashed changes
-  margin-right: 41px;
-  text-decoration: none;
-}
-.header__nav {
-<<<<<<< Updated upstream
-  margin-right: 33px;
-  text-decoration: none;
-}
- .rel{
-  position: relative;
-}
- .header__nav:last-child{
-  margin-right: 0;
-}
- .count {
-  position: absolute;
-  display: flex;
-  right: -10px;
-  top: -20px;
-  align-items: center;
-  justify-content: center;
-=======
-=======
 .header__nav {
   text-decoration: none;
 }
 
 .header a {
   margin-right: 41px;
->>>>>>> Stashed changes
   text-decoration: none;
 }
 
@@ -218,45 +168,16 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
->>>>>>> Stashed changes
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
-<<<<<<< Updated upstream
-  color: rgba(255, 255, 255, 1);
-=======
   color: white;
->>>>>>> Stashed changes
   width: 20px;
   height: 20px;
   background: #F16D7F;
   border-radius: 50%;
 }
-<<<<<<< Updated upstream
- .intro {
-  height: 764px;
-  background-color: #F1E4E6;
-  margin-bottom: 50px;
-  /* background-image: url(img/bgman.png);
-  background-position: -14%;
-  background-repeat: no-repeat;
-  background-size:auto; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
- .intro__wrap {
-  margin-left:90px;
-  text-align: left;
-  position: relative;
-}
-.intro__wrap img {
-  position: absolute;
-  left:-315px;
-  top: -382px;
-}
-=======
 
 .intro {
   height: calc(100vh - 95px);
@@ -272,8 +193,9 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   background-image: url(/img/bgman.png);
-  background-position: left -64px bottom;
+  background-position: left bottom;
   background-repeat: no-repeat;
+  background-size: 84vh;
 }
 
 .intro__wrap {
@@ -291,7 +213,6 @@ h1 {
   height: calc(100vh - 169px);
 }
 
->>>>>>> Stashed changes
 .intro__text {
   max-width: 397px;
   font-weight: 900;
@@ -301,130 +222,11 @@ h1 {
   border-left: 12px solid #F16D7F;
   line-height: 28px;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 .intro__text span {
   font-size: 32px;
   font-weight: 700;
 }
-<<<<<<< Updated upstream
-.intro__text span span{
-  font-size: 37px;
-  color: #F16D7F;
-}
-.stock{
-  margin-bottom: 96px;
-}
-  .stock__sale {
-      display: flex;
-      margin: 15px 0;
-      width: 360px;
-      height: 260px;
-      text-align: center;
-      align-items: center;
-    justify-content: center; 
-    background-blend-mode: multiply;
-    background-color: rgba(31, 15, 15, 0.6); 
-}
-  .stock__sale2 {
-    display: flex;
-    margin-top: 15px;
-    width: 100%;
-    height: 180px;
-    text-align: center;
-    align-items: center;
-  justify-content: center; 
-  background-blend-mode: multiply;
-  background-color: rgba(31, 15, 15, 0.6); 
-}
-  .stock__sale__text {
-      color: #FFFFFF;;
-      display: flex;
-      text-align: center;
-      align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-}
-  .stock__sale__text span {
-    font-weight: 400;
-    font-size: 16x;
-    line-height: 19px;
-}
-  .stock__sale__text h3 {
-      font-weight: 700;
-      font-size: 24px;
-      line-height: 29px;
-     color: #F16D7F;
-}
-.centr{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-justify-content: center; 
-}
-.container h3 {
-  font-weight: 400; 
-  font-size: 30px;
-  line-height: 36px;
-}
-.container p {
-  font-weight: 400; 
-  size: 14px;
-  line-height: 17px;
-  color: rgba(159, 159, 159, 1);
-  margin-bottom: 18px;
-}
-
-.products_block h4{
-   margin: 25px 29px 12px 18px;
-   font-weight: 400;
-  Size: 13px;
-  Line-height: 16px;
-}
-.products_block p{
-  margin-left: 18px;
-  margin-right: 29px;
-  margin-bottom: 0;
-  text-align: left;    
-  font-weight: 300;
-  font-size: 14px;
-  Line-height: 17px;
-  max-height: 51px;
-}
-
-.products_block span{
-  margin: 18px 29px 20px 18px;   
-  font-weight: 400;
-  font-size: 16px;
-  Line-height: 19px;
-  color: rgba(241, 109, 127, 1);
-}
-
-.products_block {
-  width: 360px;
-  height: 581px;
-  background-color: rgba(248, 248, 248, 1);
-  display: flex;
-  flex-direction: column; 
-  align-items: baseline;
-  margin-bottom: 30px;
-}
-.products_block__card{
-  width: 652px;
-  height: 306px;
-  background-color:rgba(255, 255, 255, 1);
-  display: flex;
-  flex-direction: row; 
-  align-items: center;
-  margin-right: 128px;
-  margin-bottom: 40px;
-  box-shadow: 10px 20px 25px 0px rgba(0,0,0,0.2);
-}
-.products_block__card h3 {
-=======
 
 .intro__text span span {
   font-size: 37px;
@@ -621,17 +423,11 @@ justify-content: center;
 }
 
 .products__block__card h3 {
->>>>>>> Stashed changes
   padding: 22px 31px;
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
 }
-<<<<<<< Updated upstream
-.products__properties {
-  padding: 20px 31px;
-}
-=======
 
 .products__block__card__item {
   position: relative;
@@ -658,64 +454,12 @@ justify-content: center;
   padding: 20px 31px;
 }
 
->>>>>>> Stashed changes
 .products__properties li {
   margin-bottom: 6px;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
   list-style-type: none;
-<<<<<<< Updated upstream
-  color:#575757;
-}
-.products__properties span {
-color: #F16D7F;
-}
-.products__properties button {
-  margin-left: 24px;
-  padding: 0 15px;
-  font-size: 18px;
-  border: rgba(234, 234, 234, 1) solid 1px;
-  background-color:rgba(255, 255, 255, 1);
-  }
-.shoping {
-  width: 652px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.shoping button {
-  padding: 16px 39px;
-  margin-top: 32px;
-  border: rgba(234, 234, 234, 1) solid 1px;
-  background-color:rgba(255, 255, 255, 1);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 17px;
-  color: rgba(0, 0, 0, 1);
-}
-
-.products__button {
-    margin-top: 43px;
-    margin-bottom: 95px;
-    font-weight: 400;
-    font-size: 16px;
-    Line-height: 19px;
-    color: rgba(241, 109, 127, 1);
-    border: rgba(241, 109, 127, 1) solid 1px;
-    background-color:rgba(255, 255, 255, 1);
-    text-align: center; 
-    padding: 14px 38px;
-}
-
-.products__button a {
-  text-decoration: none;
-  color: rgba(241, 109, 127, 1);
-}
-.products__button:hover {
-  background-color: #F16D7F;
-  color: rgba(255, 255, 255, 1);
-=======
   color: #575757;
 }
 
@@ -755,89 +499,12 @@ color: #F16D7F;
   line-height: 17px;
   font-weight: 300;
   color: black;
->>>>>>> Stashed changes
 }
 
 .quote {
   width: 360px;
   margin-bottom: 57px;
 }
-<<<<<<< Updated upstream
-.quote h4 {
-font-size: 16px;
-font-weight: 300;
-line-height: 19px;
-margin: 10px 0;
-}
-.quote input {
-padding: 13px 0 16px 16px;
-margin: 10px 0;
-width: 342px;
-border: rgba(234, 234, 234, 1) solid 1px;
-  background-color:rgba(255, 255, 255, 1);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 17px;
-  color: rgba(0, 0, 0, 1);
-}
-.quote button {
-  border: rgba(234, 234, 234, 1) solid 1px;
-    background-color:rgba(255, 255, 255, 1);
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 17px;
-    color: rgba(74, 74, 74, 1);
-    margin: 10px 0;
-    padding: 10px 14px;
-  }
-.checkout {
-  width: 360px;
-  background-color: rgba(245, 243, 243, 1);
-  text-align: right;
-}
-.checkout button {
-  background: #F16D7F;
-  color: rgba(255, 255, 255, 1);
-  padding: 15px;
-  margin: 0 43px 43px 43px;
-  width: 272px;
-  display: flex;
-  text-align: center;
-  justify-content: space-around;  
-  border: none;
-}
-.checkout h5 {
-  margin: 39px 34px 12px 0;
-}
-.checkout h4 {
-  margin: 0 37px 4px 0;
-}
-.checkout hr {
-  margin: 17px 43px;
-}
-.checkout span {
-  color: #F16D7F;
-}
-.info{
-  height: 341px;
-  background-color: rgba(34, 34, 36, 1);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-.info h3 {
-color: rgba(251, 251, 251, 1);
-margin: 16px;
-}
-.info p {
-max-width: 360px;
-font-size: 14px;
-Line-height: 17px;
-}
-.subscribe{
-=======
 
 .quote h4 {
   font-size: 16px;
@@ -937,107 +604,10 @@ Line-height: 17px;
 }
 
 .subscribe {
->>>>>>> Stashed changes
   height: 448px;
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: overlay;
-<<<<<<< Updated upstream
-  background-color: rgba(255, 255, 255, 0.6); 
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-.subscribe img {
-padding: 15px;
-}
-.subscribe h4 {
-max-width: 360px;
-font-weight: 400;
-font-size: 20px;
-Line-height: 24px;
-padding: 15px;
-}
-.subscribe h3 {
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
-}
-.subscribe span {
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-}
-
-.subsform {
-margin-top: 32px;
-}
-.inputform {
-background: #E1E1E1;
-height: 49px;
-width: 256px;
-border: 0px;
-outline:none;
-margin-right: -5px;
-padding-left: 22px;
-border-radius: 25px 0 0 25px;
-}
-.send {
-height: 49px;
-width: 100px;
-border: 0px;
-background: rgba(241, 109, 127, 1);
-border-radius: 0 25px 25px 0;
-padding: 7px;
-color: rgba(255, 255, 255, 1);
-}
-
-.copyright {
-height: 79px;
-background-color: rgba(34, 34, 36, 1);
-display: flex;
-align-items: center;
-text-align: left;
-color:  rgba(251, 251, 251, 1);
-}
-.copyright button {
-width: 32px;
-height: 32px;
-background-color: #FFFFFF;
-border: none;
-display: flex;
-align-items: center;
-justify-content: space-around;
-}
-.copyright button:not(:last-child){
-  margin-right: 7px;
-}
-.copyright button:hover{
-  background-color: rgba(241, 109, 127, 1);
-  fill: rgba(255, 255, 255, 1);
-}
-
-.social{
-  display: flex;
-  flex-direction: row;
-}
-.catalog__nav{
-  height: 148px;
-  background-color: #F8F3F4;
-  margin-bottom: 35px;
-  display: flex;
-  align-items: center;
-}
-
-h1 {
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-color: #F16D7F;
-=======
   background-color: rgba(255, 255, 255, 0.6);
   background-size: cover;
   display: -webkit-box;
@@ -1162,32 +732,10 @@ color: #F16D7F;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> Stashed changes
 }
 
 .catalog__nav h3 {
   font-size: 14px;
-<<<<<<< Updated upstream
-  font-weight: 300;
-  line-height: 17px;
-  color: #636363;
-}
-.catalog__nav span {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 17px;
-  color: #F16D7F;
-}
-.filtr__block {
-  width: 360px;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
-} 
-=======
   line-height: 17px;
   font-weight: 300;
   color: #636363;
@@ -1228,38 +776,11 @@ color: #F16D7F;
   position: relative;
   z-index: 1;
 }
->>>>>>> Stashed changes
 
 .filtr__block p {
   color: #6F6E6E;
   margin: 0;
   padding: 0;
-<<<<<<< Updated upstream
-  }
-
-.filtr .container {
-  justify-content: space-between;
-  margin-bottom: 65px;
-}
-
-.filtr__block {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-}
-.filtr__block details > summary::-webkit-details-marker {
-  display: none;
-}
-.filtr__block details > summary {
-list-style: none;
-font-size: 14px;
-  padding-right: 11px;
-  font-weight: 600;
-}
-=======
 }
 
 .filtr__block details > summary {
@@ -1282,89 +803,12 @@ font-size: 14px;
   background-color: #FFFFFF;
 }
 
->>>>>>> Stashed changes
 .filtr__block details[open] > summary {
   color: #F16D7F;
   margin-bottom: 24px;
   fill: #F16D7F;
 }
 
-<<<<<<< Updated upstream
-.filtr__block details[open] {
-width: 360px;
-border-radius: 0px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
-padding:17px 12px;
-top: -15px;
-background-color: #FFFFFF;
-}
-.absolute {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-}
-.smalllist {
-  position: relative;
-}
-.smalllist details[open]{
-  box-shadow: none;
-  width:100%;
-  padding: 0; 
-}
-
-.smalllist details > summary {
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-border-left: 5px solid #F16D7F;
-padding: 11px;
-border-bottom: 1px solid #EBEBEB;
-margin-bottom: 18px;
-height: 100%;
-}
-
-.menu img{
-  margin-right: 28px;
-}
-
- .menu{
-  display: flex; 
-  flex-direction: row; 
-  align-items: baseline;
-  position: relative;
- }
-
- .menu details[open] {
-  width: 79px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
-  top: 0;
-  position: relative;
- }
- 
- .menu > details > summary{
-  font-weight: 400;
-  color: #6F6E6E;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  position: relative;
- }
- .menu p{
- padding-right: 10px;
- }
-
-.absolute span{
-  display: flex;
-  flex-direction: row;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
-  text-align: left;
-  padding-left: 13px;
-  padding-bottom: 11px;
-=======
 .smalllist {
   position: relative;
 }
@@ -1455,7 +899,6 @@ height: 100%;
   padding: 6px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
->>>>>>> Stashed changes
 }
 
 .pagination {
@@ -1465,70 +908,13 @@ height: 100%;
 }
 
 .pagination a {
-<<<<<<< Updated upstream
-  color: rgb(155, 149, 149);
-=======
   color: #9b9595;
->>>>>>> Stashed changes
   float: left;
   padding: 8px 16px;
   text-decoration: none;
 }
 
 .pagination a.active {
-<<<<<<< Updated upstream
-    color: #f16d7f; 
-}
-
-<<<<<<< Updated upstream
-.pagination a:hover:not(.active) {background-color: #ddd;}
-=======
-.pagination a:hover:not(.active) {background-color: #ddd;}
-
-.Prod_list{
-  width: 100%;
-  height: 777px;
-  background-color: rgba(247, 247, 247, 1);
-  margin-top: -35px;
-  border: rgba(234, 234, 234, 1) solid 1px;
-}
-
-.slider__wrapper {
-  overflow: hidden;
-}
-
-.slider__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-}
-.btn__slider{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.15);
-height: 47px;
-width: 47px;
-}
-
-  .prv_b:hover, .nxt_b:hover, .btn__slider:hover{
-    opacity:.6;}
-  
-.slider{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.item {
-  position: relative;
-  transition: 0.5s;
-}
-
-.item:hover {
-  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
-=======
   color: #f16d7f;
 }
 
@@ -1590,7 +976,6 @@ width: 47px;
 
 .prv_b:hover, .nxt_b:hover, .Prodlist__slider__btn:hover {
   opacity: .6;
->>>>>>> Stashed changes
 }
 
 .overlay {
@@ -1601,25 +986,6 @@ width: 47px;
   height: 100%;
   width: auto;
   background-color: rgba(58, 56, 56, 0.83);
-<<<<<<< Updated upstream
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.item:hover .overlay {
-  opacity: 1;
-}
-
-.item-img {
-  width: 360px;
-  height: 420px;
-  background-color: #e9e9e9;
-}
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1634,19 +1000,10 @@ width: 47px;
   transition: 0.5s;
 }
 
->>>>>>> Stashed changes
 .item-img__card {
   height: 306px;
   background-color: #e9e9e9;
 }
-<<<<<<< Updated upstream
-.to_card__btn {
-  font-weight: 400;
-  Size: 16px;
-  Line-height: 19px;
-  color: rgba(255, 255, 255, 1);
-  border: rgba(255, 255, 255, 1) solid 1px;
-=======
 
 .to_card__btn {
   font-weight: 400;
@@ -1654,41 +1011,11 @@ width: 47px;
   line-height: 19px;
   color: white;
   border: white solid 1px;
->>>>>>> Stashed changes
   padding: 14px 38px;
 }
 
 .to_card__btn a {
   text-decoration: none;
-<<<<<<< Updated upstream
-  color: rgba(255, 255, 255, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.woman__coll {
-  height: 600px;
-  border: rgba(234, 234, 234, 1) solid 1px;
-  margin-top: -65px;
-  background-color: rgba(255, 255, 255, 1);
-  margin-bottom: 130px;
-  z-index: 1;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.hr_wom1{
-border: rgba(239, 91, 112, 1) solid 3px;
-width: 63px;
-margin: 12px auto;
-}
-.hr_wom2{
-  width: 504px;
-  border: rgba(234, 234, 234, 1) solid 1px; 
-  margin: 65px auto;
-}
-=======
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1721,7 +1048,6 @@ margin: 12px auto;
           justify-content: center;
 }
 
->>>>>>> Stashed changes
 .woman__coll p {
   max-width: 555px;
   text-align: center;
@@ -1731,41 +1057,13 @@ margin: 12px auto;
   font-size: 14px;
   font-weight: 300;
   line-height: 17px;
-<<<<<<< Updated upstream
-  color: rgba(94, 94, 94, 1);
-=======
   color: #5e5e5e;
->>>>>>> Stashed changes
 }
 
 .woman__coll h4 {
   font-size: 14px;
   font-weight: 300;
   line-height: 17px;
-<<<<<<< Updated upstream
-  color: rgba(241, 109, 127, 1);
-}
-
-.woman__coll h3 {
-font-size: 18px;
-line-height: 22px;
-color: rgba(77, 77, 77, 1);
-
-}
-.woman__coll h2 {
-font-size: 24px;
-font-weight: 300;
-line-height: 29px;
-color: rgba(241, 109, 127, 1);
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-}
->>>>>>> Stashed changes
-=======
   color: #f16d7f;
 }
 
@@ -1936,10 +1234,6 @@ color: rgba(241, 109, 127, 1);
   font-weight: 300;
   line-height: 29px;
 }
-<<<<<<< Updated upstream
-/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
-=======
 
 @media screen and (max-width: 1140px) {
   .header__menu {
@@ -1959,4 +1253,3 @@ color: rgba(241, 109, 127, 1);
   }
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes

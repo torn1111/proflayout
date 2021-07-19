@@ -79,10 +79,7 @@ h1 {
 
 .header #header__nav:checked + .header__menu {
   opacity: 1;
-<<<<<<< Updated upstream
-=======
   display: block;
->>>>>>> Stashed changes
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s;
   z-index: 10;
@@ -91,30 +88,20 @@ h1 {
 .header__menu {
   display: block;
   opacity: 0;
-<<<<<<< Updated upstream
-  height: calc(100vh - 62px);
-  position: absolute;
-  top: 62px;
-  left: calc(100vw - 392px);
-=======
   height: calc(100vh - 97px);
   position: absolute;
   top: 61px;
   right: calc((1140px - 100vw)/2);
->>>>>>> Stashed changes
   width: 232px;
   background-color: white;
   -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
-<<<<<<< Updated upstream
-=======
 .burger {
   margin-right: 25px;
 }
 
->>>>>>> Stashed changes
 .flex-end {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,12 +109,6 @@ h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-<<<<<<< Updated upstream
-}
-
-.hidden {
-  visibility: hidden;
-=======
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -135,7 +116,6 @@ h1 {
 
 .hidden {
   display: none;
->>>>>>> Stashed changes
 }
 
 .rel {
@@ -200,11 +180,7 @@ h1 {
 }
 
 .intro {
-<<<<<<< Updated upstream
-  height: calc(100vh - 62px);
-=======
   height: calc(100vh - 95px);
->>>>>>> Stashed changes
   background-color: #F1E4E6;
   margin-bottom: 50px;
   display: -webkit-box;
@@ -217,8 +193,9 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   background-image: url(/img/bgman.png);
-  background-position: left -64px bottom;
+  background-position: left bottom;
   background-repeat: no-repeat;
+  background-size: 84vh;
 }
 
 .intro__wrap {
