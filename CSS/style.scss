@@ -136,7 +136,7 @@ h1 {
   background-image: url(/img/bgman.png);
   background-position: left bottom;
   background-repeat: no-repeat;
-  background-size: 84vh;
+  background-size: 50%;
   &__wrap {
     margin-left:90px;
     text-align: left;
@@ -158,7 +158,7 @@ h1 {
     color: #222222;
     padding-left: 20px;
     border-left: 12px solid #F16D7F;
-    line-height: 28px;
+    line-height: 42px;
     & span {
         font-size: 32px;
         font-weight: 700;
@@ -174,13 +174,15 @@ h1 {
     &__sale{
         display: flex;
         margin: 15px 0;
-        width: 360px;
-        height: 260px;
+        width: 32%;
+        min-height: 260px;
         text-align: center;
         align-items: center;
       justify-content: center; 
       background-blend-mode: multiply;
       background-color: rgba(31, 15, 15, 0.6); 
+      background-size: cover;
+      background-position: center;
       transition:all 1s;
       &:hover {
           transform: translateY(-50px) scale(1.2);
@@ -251,6 +253,7 @@ h1 {
     }
     &__block{
         width: 360px;
+        min-width: 32%;
         height: 581px;
         background-color: rgba(248, 248, 248, 1);
         display: flex;
@@ -525,12 +528,13 @@ h1 {
     }
 }
 .filtr {
+    
     & .container {
-        justify-content: space-between;
         margin-bottom: 65px;
+        justify-content: flex-start;
     }
     &__block {
-        width: 360px;
+        width: 32%;
         display: flex;
         flex-direction: row;
         align-items: baseline;
@@ -538,7 +542,7 @@ h1 {
         @include basefont();
         font-weight: 400;
         position: relative;
-        z-index: 1;
+        z-index: 9;
             & p{
                 color: #6F6E6E;
                 margin: 0;
@@ -883,6 +887,62 @@ h1 {
         padding-right: 25px;
     }
   }
+  @media screen and (max-width: 1096px) {
+    .products .container {
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .filtr .container {
+        justify-content:space-between;
+    }
+    #filtr__block2{
+        width: 50%;
+    }
+   
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro {
+      background-position: left center;
+     }
+     .info {
+        height: 610px;
+    }
+     .subscribe {
+         height: 693px;
+     }
+     #info__container{
+        flex-direction: column; 
+     }
+     #filter{
+        display:none;
+     }
+    .woman__coll .menu h3 {
+        font-size: 12px;
+        line-height: 22px;
+        color: rgba(77, 77, 77, 1);
+    }
+
+    }
+ @media screen and (max-width: 734px) {
+        .products .container {
+            display: flex;
+            justify-content: center;
+        }
+        .filtr .container {
+            justify-content:flex-start;
+        }
+        #filtr__block2{
+            margin-left: -30%;
+        }
+        #container__reg {
+            flex-wrap: wrap;
+
+        }
+        
+}
+  
 @media screen and (max-width: 375px) {
     #head_4{
         display:none;
@@ -890,5 +950,25 @@ h1 {
     #head_5{
         display:none;
     }
-  
+    .intro{
+        background-image: none;
+        &__wrap{
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+    }
+    #intro__wrap1{
+        display: none;
+    }
+    .catalog__nav .container{
+        flex-direction: column;
+    }
+    .subscribe__form__input {
+        max-width: 212px;
+    }
+    .menu img {
+        margin-right: 10px;
+    }
+    
 }  

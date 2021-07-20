@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
@@ -15,17 +15,46 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container rel">
             <div>
                 <a href="index.html">
                     <img src="img/head_1.svg" alt="logo">
                 </a>
                 <a href="Product.html"><img src="img/head_2.svg" alt="head_2"></a>
             </div>
-            <div>
-                <a href="#"><img class="header__nav" src="img/head_3.svg" alt="head_3"></a>
-                <a href="Registration.html"><img class="header__nav" src="img/head_4.svg" alt="head_4"></a>
-                <a href="card.html">
+            <div class="flex-end">
+                <label for="header__nav" class="burger"><img class="header__nav" src="img/head_3.svg"
+                        alt="head_3"></label>
+                <input type="checkbox" name="header__nav" id="header__nav" class="hidden">
+                <nav class="header__menu">
+                    <h4>MENU</h4>
+                    <details>
+                        <summary>MAN</summary>
+                        <li>Accessories</li>
+                        <li>Bags</li>
+                        <li>Denim</li>
+                        <li>T-Shirts</li>
+                    </details>
+                    <details>
+                        <summary>WOMAN</summary>
+                        <li>Accessories</li>
+                        <li>Jackets & Coats</li>
+                        <li>Polos</li>
+                        <li>T-Shirts</li>
+                        <li>Shirts</li>
+                    </details>
+                    <details>
+                        <summary>KIDS</summary>
+                        <li>Accessories</li>
+                        <li>Jackets & Coats</li>
+                        <li>Polos</li>
+                        <li>T-Shirts</li>
+                        <li>Shirts</li>
+                        <li>Bags</li>
+                    </details>
+                </nav>
+                <a href="Registration.html" id="head_4"><img class="header__nav" src="img/head_4.svg" alt="head_4"></a>
+                <a href="card.html" id="head_5">
                     <span class="rel">
                         <img src="img/head_5.png" alt="head_5">
                         <span class="count">11</span>
