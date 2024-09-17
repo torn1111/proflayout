@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
-    <title>Главная</title>
+    <title>Регистрация</title>
 </head>
 
 <body>
@@ -33,138 +33,45 @@
             </div>
         </div>
     </header>
-
-    <div class="intro">
-        <div class="container">
-            <div class="intro__wrap">
-                <img src="img/bgman.png" alt="bg">
-            </div>
-            <div class="intro__wrap">
-                <h1 class="intro__text"> THE BRAND
-                    <span> OF LUXERIOUS
-                        <span> FASHION
-                        </span></span>
-                </h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="stock">
-        <div class="container">
-            <div class="stock__sale" style="background-image: url(img/BL2_img1.png);">
-                <div class="stock__sale__text">
-                    <span>30% OFF</span>
-                    <h3>FOR WOMAN</h3>
-                </div>
-            </div>
-            <div class="stock__sale" style="background-image: url(img/BL2_img2.png);">
-                <div class="stock__sale__text">
-                    <span>HOT DEAL</span>
-                    <h3>FOR MAN</h3>
-                </div>
-            </div>
-            <div class="stock__sale" style="background-image: url(img/BL2_img3.png);">
-                <div class="stock__sale__text">
-                    <span>NEW ARRIVALS</span>
-                    <h3>FOR KIDS</h3>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="stock__sale2" style="background-image: url(img/BL2_img4.png);">
-                <div class="stock__sale__text">
-                    <span>LUXIROUS & TRENDY</span>
-                    <h3>ACCESORIES</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container centr" style="margin-bottom: 48px;">
-        <h3>Fetured Items</h3>
-        <p>Shop for items based on what we featured in this week</p>
-    </div>
-    <div class="products">
-        <div class="container">
-            <div class="products__block">
-                <img src="img/BL3_1.png" alt="BL3_1">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products__block">
-                <img src="img/BL3_2.png" alt="BL3_2">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products__block">
-                <img src="img/BL3_3.png" alt="BL3_3">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-        </div>
-        <div class="container">
-            <div class="products__block">
-                <img src="img/BL3_4.png" alt="BL3_4">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products__block">
-                <img src="img/BL3_5.png" alt="BL3_5">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-            <div class="products__block">
-                <img src="img/BL3_6.png" alt="BL3_6">
-                <h4>ELLERY X M'O CAPSULE</h4>
-                <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams
-                    up
-                    with Moda Operandi.</p>
-                <span>$52.00</span>
-            </div>
-        </div>
-        <div class="container centr">
-            <form action="catalog.html">
-                <button>Browse All Product</button>
-            </form>
-        </div>
-    </div>
-    <div class="info">
+    <nav class="catalog__nav">
         <div class="container">
             <div>
-                <img src="img/delivery.png" alt="delivery">
-                <h3>Free Delivery</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
+                <h1>REGISTRATION</h1>
             </div>
             <div>
-                <img src="img/discont.png" alt="discont">
-                <h3>Sales & discounts</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
-            </div>
-            <div>
-                <img src="img/krown.png" alt="krown">
-                <h3>Quality assurance</h3>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-                </p>
             </div>
         </div>
-    </div>
-    <div class="subscribe" style="background-image: url(img/subs.jpg);">
+    </nav>
+    <main class="container reg">
+                <form action="reg" class="quote reg__form column">
+                    <h3>Your Name</h3>
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">
+                    <div class="inline reg__form__radio">
+                        <input type="radio" name="male" id="male">
+                        <span>Male</span>
+                        <input type="radio" name="male" id="female">
+                        <span>Female</span>
+                    </div>
+                    <h3>Login details</h3>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    <button>JOIN NOW &rarr;</button>
+                </form>
+                <div class="reg__perks column">
+                    <h2>LOYALTY HAS ITS PERKS</h2>
+                    <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                    <ul> 
+                        <li>15% off welcome offer</li>
+                        <li>Free shipping, returns and exchanges on all orders</li>
+                        <li>$10 off a purchase on your birthday</li>
+                        <li>Early access to products</li>
+                        <li>Exclusive offers & rewards</li> 
+                    </ul>
+                </div>
+    </main>
+       <div class="subscribe" style="background-image: url(img/subs.jpg);">
         <div class="container">
             <div>
                 <img src="img/face.png" alt="krown">

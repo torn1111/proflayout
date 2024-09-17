@@ -140,6 +140,10 @@ h1 {
       justify-content: center; 
       background-blend-mode: multiply;
       background-color: rgba(31, 15, 15, 0.6); 
+      transition:all 1s;
+      &:hover {
+          transform: translateY(-50px) scale(1.2);
+      }
       &__text{
         color: #FFFFFF;;
         display: flex;
@@ -192,6 +196,8 @@ h1 {
     background-color:rgba(255, 255, 255, 1);
     text-align: center; 
     padding: 14px 38px;
+    transition: all 1s;
+    
            & a {
             text-decoration: none;
             color: rgba(241, 109, 127, 1);
@@ -199,6 +205,7 @@ h1 {
            &:hover {
             background-color: #F16D7F;
             color: rgba(255, 255, 255, 1); 
+            transform: scale(2);
            }
     }
     &__block{
@@ -541,17 +548,23 @@ h1 {
         }
     }
 }
+
 .menu{
     display: flex; 
     flex-direction: row; 
     align-items: baseline;
     position: relative;
+    white-space: nowrap;
     & img{
         margin-right: 28px;
         }
     & details[open] {
-        width: 79px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+        width: 100%;
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 0;
+        top: 0;
+        background-color: none;
         top: 0;
         position: relative;
        }
@@ -563,9 +576,25 @@ h1 {
         align-items: baseline;
         position: relative;
        }
-    & p{
+    & h3{
+        font-weight: 400;
+        line-height: 17px;
+        font-size:14px;
+        margin:0 auto; 
+        padding: 0;
         padding-right: 10px;
+        color: #6F6E6E;
         }
+}
+.spisok {
+    position: absolute;
+    margin-top: -15px;
+    transform-origin: top center;
+    background: white;
+    width: calc(100% - 12px);
+    margin-left: -12px;
+    padding: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
 }
 .pagination {
     display: inline-block;
@@ -637,8 +666,8 @@ h1 {
 }
 .to_card__btn {
     font-weight: 400;
-    Size: 16px;
-    Line-height: 19px;
+    font-Size: 16px;
+    line-height: 19px;
     color: rgba(255, 255, 255, 1);
     border: rgba(255, 255, 255, 1) solid 1px;
     padding: 14px 38px;
@@ -694,7 +723,7 @@ h1 {
         margin-bottom: 95px;
         font-weight: 400;
         font-size: 16px;
-        Line-height: 19px;
+        line-height: 19px;
         color: rgba(241, 109, 127, 1);
         border: rgba(241, 109, 127, 1) solid 1px;
         background-color:rgba(255, 255, 255, 1);
@@ -724,4 +753,84 @@ h1 {
       display: flex;
       flex-direction: column;
       align-items: flex-start; 
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.reg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    &__form {
+        & h3 {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19px;
+            margin-bottom: 10px;
+        }
+        & span {
+            font-size: 11px;
+            font-weight: 300;
+            line-height: 13px;
+
+        }
+        & p {
+            font-family: Lato;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 16px;
+            color: #B1B1B1;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+        & button {
+            margin: 39px auto;
+            width: 167px;
+            height: 50px;
+            &:hover{
+                background-color: #F16D7F;
+                color: #F8F3F4;
+            }
+        }
+        &__radio {
+            & input {
+                width: 20px;
+                margin: 32px 0;
+            }
+            & span {
+                margin: 32px 20px 32px 10px;
+            }
+        }
+    }
+    &__perks {
+        max-width: 652px;
+        & h2 {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 29px;
+        }
+        & p {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 29px;
+            margin-bottom: 5px;
+            margin-top: 22px;
+        }
+        & ul {
+            list-style-image: url(/img/list.svg);
+            margin-left: 22px;
+            & li {
+                margin-top: 16px;
+                padding-left: 22px;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 29px;
+            }
+        }
+    }
 }

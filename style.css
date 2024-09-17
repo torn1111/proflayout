@@ -54,17 +54,17 @@ h1 {
   padding: 19px 0;
 }
 
-.header__logo {
+.header a {
   margin-right: 41px;
   text-decoration: none;
 }
-
 .header__nav {
-  margin-right: 41px;
   text-decoration: none;
 }
-
-.header__nav:last-child {
+.header a:first-child {
+  margin-right: 25;
+}
+.header a:last-child {
   margin-right: 0;
 }
 
